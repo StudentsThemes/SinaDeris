@@ -1,0 +1,122 @@
+/* @font-face {
+  font-family: "IranSans";
+  src: url("../fonts/glyphicons-halflings-regular.eot") format("eot"),
+    url("../fonts/glyphicons-halflings-regular.svg") format("svg"),
+    url("../fonts/glyphicons-halflings-regular.ttf") format("ttf"),
+    url("../fonts/glyphicons-halflings-regular.woff") format("woff");
+}
+* {
+  font-family: "IranSans";
+} */
+
+body {
+  overflow-x: hidden;
+}
+.navbar-brand > img {
+  display: inline;
+  margin: -10px -3px;
+  width: 63px;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+  margin: 1%;
+}
+.mycarousel {
+  border-radius: 20%;
+}
+
+.mycarousel img {
+  width: 100%;
+}
+
+.redBox {
+  background-color: #f0f4f5;
+  width: 96%;
+  margin: 25px 2%;
+  border-radius: 15px;
+}
+.redBox .row > div:first-child img {
+  border-radius: 15px;
+  cursor: pointer;
+}
+.redBox img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.redBox img:hover,
+.redBox span:hover,
+img.col-md-5.secL:hover,
+img.sss.col-md-10:hover,
+.card2:hover,
+.container.lastline:hover {
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  margin-top: 21%;
+}
+
+.card span {
+  display: block;
+  text-align: center;
+}
+
+.AntiVirus img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.AntiVirus img:hover {
+  cursor: pointer;
+}
+
+.news {
+  font-weight: bold;
+  text-align: right;
+  font-size: 41px;
+  margin-right: 9%;
+}
+
+.card2 img,
+.lL img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.card2 span {
+  margin-right: 65px;
+}
+
+.card2,
+.lL {
+  border: 1px solid #8d8b8b;
+  border-radius: 16px;
+}
+
+img.sss.col-md-10 {
+  border-radius: 56px;
+}
+
+.col-md-5.secL {
+  border-radius: 56px;
+  margin-top: 18px;
+}
+
+.container.lastline {
+  margin-top: 54px;
+}
+
+.container.lastline img {
+  border-radius: 16px;
+}
+
+.container.contact {
+  margin-top: 54px;
+}
+
+.container.contact img {
+  border-radius: 44px;
+}
